@@ -24,7 +24,7 @@ console.log("Valore dell'indice uscito dal ciclo for _" + i);
 
 if (login)
 {
-    document.getElementById('user-name').innerHTML = listaEmails[i];
+    document.getElementById('title').innerHTML = listaEmails[i];
     document.getElementById('message').innerHTML = 
     "La sua email è stata riconosciuta";
 }
